@@ -1,0 +1,12 @@
+C:\Liquid\source\bin\Debug\Liquid.exe.config
+C:\Liquid\source\bin\Debug\LiquidAzure.XML
+C:\Liquid\source\bin\Debug\Liquid.exe
+C:\Liquid\source\bin\Debug\Liquid.pdb
+C:\Liquid\source\bin\Debug\FSharp.Core.dll
+C:\Liquid\source\bin\Debug\Liquid1.dll
+C:\Liquid\source\bin\Debug\Liquid1.xml
+C:\Liquid\source\bin\Debug\FSharp.Core.xml
+C:\Liquid\source\obj\x64\Debug\Liquid.fsprojAssemblyReference.cache
+C:\Liquid\source\obj\x64\Debug\Liquid.fsproj.CopyComplete
+C:\Liquid\source\obj\x64\Debug\Liquid.exe
+C:\Liquid\source\obj\x64\Debug\Liquid.pdb

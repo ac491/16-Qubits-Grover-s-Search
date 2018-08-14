@@ -1,0 +1,11 @@
+C:\Users\sneha\16Q_Grover\obj\Debug\netcoreapp2.0\16Q_Grover.csprojAssemblyReference.cache
+C:\Users\sneha\16Q_Grover\obj\Debug\netcoreapp2.0\16Q_Grover.csproj.CoreCompileInputs.cache
+C:\Users\sneha\16Q_Grover\obj\Debug\netcoreapp2.0\16Q_Grover.AssemblyInfoInputs.cache
+C:\Users\sneha\16Q_Grover\obj\Debug\netcoreapp2.0\16Q_Grover.AssemblyInfo.cs
+C:\Users\sneha\16Q_Grover\bin\Debug\netcoreapp2.0\16Q_Grover.deps.json
+C:\Users\sneha\16Q_Grover\bin\Debug\netcoreapp2.0\16Q_Grover.runtimeconfig.json
+C:\Users\sneha\16Q_Grover\bin\Debug\netcoreapp2.0\16Q_Grover.runtimeconfig.dev.json
+C:\Users\sneha\16Q_Grover\bin\Debug\netcoreapp2.0\16Q_Grover.dll
+C:\Users\sneha\16Q_Grover\bin\Debug\netcoreapp2.0\16Q_Grover.pdb
+C:\Users\sneha\16Q_Grover\obj\Debug\netcoreapp2.0\16Q_Grover.dll
+C:\Users\sneha\16Q_Grover\obj\Debug\netcoreapp2.0\16Q_Grover.pdb

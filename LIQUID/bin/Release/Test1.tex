@@ -1,0 +1,66 @@
+\input{/Liquid/LiquidTikZ}
+% \usepackage[landscape]{geometry}
+\begin{document}
+\title{LiquidTikZ sample}
+\author{Liquid v1}
+
+\begin{figure*}
+\def\Scale{1.00}
+\begin{tikzpicture}[scale=\Scale,every node/.style={scale=\Scale}]
+\matrix[matStyle] {
+  \point[0-0] &  & \gate[0-2]{9FBEB3E} &  & \gate[0-4]{36963CA} &  &  &  &  &  & \gate[0-10]{9340A4D} &  & \gate[0-12]{50CBABE} &  &  &  &  &  & \point[0-18]  \\
+  \point[1-0] &  &  &  &  &  & \gate[1-6]{BC7BE92} &  & \gate[1-8]{FCF405F} &  &  &  &  &  & \gate[1-14]{A8BFE60} &  & \gate[1-16]{3E29E0E} &  & \point[1-18]  \\
+  \point[2-0] &  & \mg[2-2]{9FBEB3E} &  & \mg[2-4]{36963CA} &  &  &  &  &  & \mg[2-10]{9340A4D} &  & \mg[2-12]{50CBABE} &  &  &  &  &  & \point[2-18]  \\
+  \point[3-0] &  &  &  &  &  & \mg[3-6]{BC7BE92} &  & \mg[3-8]{FCF405F} &  &  &  &  &  & \mg[3-14]{A8BFE60} &  & \mg[3-16]{3E29E0E} &  & \point[3-18]  \\
+  \point[4-0] &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \point[4-18]  \\
+  \point[5-0] &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \point[5-18]  \\
+  \point[6-0] &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \point[6-18]  \\
+  \point[7-0] & \mg[7-1]{1179BC5} &  & \mg[7-3]{CAC1A38} &  &  &  &  &  &  &  & \mg[7-11]{5BAD61} &  &  &  &  &  &  & \point[7-18]  \\
+  \point[8-0] &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \point[8-18]  \\
+  \point[9-0] &  & \mg[9-2]{9FBEB3E} &  & \mg[9-4]{36963CA} & \mg[9-5]{B910547} &  &  &  & \mg[9-9]{5FAA4C2} & \mg[9-10]{9340A4D} &  & \mg[9-12]{50CBABE} & \mg[9-13]{E5C7FA6} &  &  &  &  & \point[9-18]  \\
+  \point[10-0] &  &  &  &  &  & \mg[10-6]{BC7BE92} & \mg[10-7]{7EEA3C} & \mg[10-8]{FCF405F} &  &  &  &  &  & \mg[10-14]{A8BFE60} & \mg[10-15]{9EDACDC} & \mg[10-16]{3E29E0E} & \mg[10-17]{8C1292F} & \point[10-18]  \\
+  \point[11-0] &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \point[11-18]  \\
+  \point[12-0] &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \point[12-18]  \\
+  \point[13-0] &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \point[13-18]  \\
+  \point[14-0] & \mg[14-1]{1179BC5} &  & \mg[14-3]{CAC1A38} &  &  &  &  &  &  &  & \mg[14-11]{5BAD61} &  &  &  &  &  &  & \point[14-18]  \\
+  \point[15-0] &  &  &  &  &  &  &  &  & \mg[15-9]{5FAA4C2} &  &  &  &  &  &  &  & \mg[15-17]{8C1292F} & \point[15-18]  \\
+  \point[16-0] &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \point[16-18]  \\
+  \point[17-0] & \gate[17-1]{1179BC5} &  & \gate[17-3]{CAC1A38} &  &  &  &  &  & \mg[17-9]{5FAA4C2} &  & \gate[17-11]{5BAD61} &  &  &  &  &  &  & \point[17-18]  \\
+  \point[18-0] &  &  &  &  & \mg[18-5]{B910547} &  & \mg[18-7]{7EEA3C} &  & \mg[18-9]{5FAA4C2} &  &  &  & \mg[18-13]{E5C7FA6} &  & \mg[18-15]{9EDACDC} &  & \gate[18-17]{8C1292F} & \point[18-18]  \\
+   &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &   \\
+};
+% multigates go here
+\multigate{2-2}{9-2}{9FBEB3E}
+\multigate{2-4}{9-4}{36963CA}
+\multigate{2-10}{9-10}{9340A4D}
+\multigate{2-12}{9-12}{50CBABE}
+\multigate{3-6}{10-6}{BC7BE92}
+\multigate{3-8}{10-8}{FCF405F}
+\multigate{3-14}{10-14}{A8BFE60}
+\multigate{3-16}{10-16}{3E29E0E}
+\multigate{7-1}{14-1}{1179BC5}
+\multigate{7-3}{14-3}{CAC1A38}
+\multigate{7-11}{14-11}{5BAD61}
+\multigate{9-5}{18-5}{B910547}
+\multigate{9-9}{15-9}{5FAA4C2}
+\multigate{9-13}{18-13}{E5C7FA6}
+\multigate{10-7}{18-7}{7EEA3C}
+\multigate{10-15}{18-15}{9EDACDC}
+\multigate{10-17}{15-17}{8C1292F}
+\multigate{17-9}{18-9}{5FAA4C2}
+% annotations go here
+% wires go here
+\begin{pgfonlayer}{background}
+\qw{0-0}{0-18} \qw{1-0}{1-18} \qw{2-0}{2-18} \qw{3-0}{3-18} \qw{4-0}{4-18} \qw{5-0}{5-18} 
+\qw{6-0}{6-18} \qw{7-0}{7-18} \qw{8-0}{8-18} \qw{9-0}{9-18} \qw{10-0}{10-18} \qw{11-0}{11-18} 
+\qw{12-0}{12-18} \qw{13-0}{13-18} \qw{14-0}{14-18} \qw{15-0}{15-18} \qw{16-0}{16-18} 
+\qw{17-0}{17-18} \qw{18-0}{18-18} 
+\dwx{0-2}{2-2} \dwx{0-4}{2-4} \dwx{0-10}{2-10} \dwx{0-12}{2-12} \dwx{1-6}{3-6} \dwx{1-8}{3-8} 
+\dwx{1-14}{3-14} \dwx{1-16}{3-16} \dwx{14-1}{17-1} \dwx{14-3}{17-3} \dwx{15-9}{17-9} 
+\dwx{14-11}{17-11} \dwx{15-17}{18-17} 
+\end{pgfonlayer}
+\end{tikzpicture}
+\caption{\label{fig:Test1} Test1}
+\end{figure*}
+
+\end{document}
